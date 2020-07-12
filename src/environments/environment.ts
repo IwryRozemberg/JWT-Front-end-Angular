@@ -3,8 +3,18 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  linguagensApiUrl: 'http://localhost:3000/api',
+  toastConfig: {
+    positionClass: 'toast-top-right',
+    preventDuplicates: true,
+    enableHtml: true,
+    progressBar: true,
+    timeOut: 3000
+  }
 };
+
+export const TOKEN_STORAGE = 'LINGUAGEM_TOKEN';
 
 /*
  * For easier debugging in development mode, you can import the following file
